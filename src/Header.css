@@ -2,11 +2,14 @@
     background-color: #131921;
     display: flex;
     align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 100;
 }
 .header__logo{
     width: 100px;
     object-fit: contain;
-    margin-top: 18px;
+    margin-top: 15px;
     margin-right: 20px;
     margin-left: 20px;
     cursor: pointer;
@@ -20,6 +23,7 @@
     padding: 10px;
     border: none;
     width: 100%;
+    outline: none;
 }
 .header__searchIcon{
     background-color: #cd9042;
@@ -43,9 +47,28 @@
 }
 
 .header__optionLineOne{
-    font-size: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(242, 243, 233);
 }
 .header__optionLineTwo{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.icon__basket{
+    color:white;
+    margin-top: 5px;
 }

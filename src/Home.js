@@ -21,6 +21,7 @@ const Home = () =>{
 
                 <div className="home__row">
                     <Product
+                        className="margin"
                         id="1"
                         title="HowInovation Creates the products thats an amazasing future"
                         price={11.69}

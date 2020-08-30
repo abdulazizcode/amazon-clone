@@ -1,14 +1,49 @@
 body {
   background-color: rgb(237,237,237);
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: red; */
+  }
+  .home__row{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .home__image{
+    margin-bottom: 0;
+  }
+
+  .home{
+    max-width: 600px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.product{
+  width: 80%;
+  margin-bottom: 15px;
+  padding-right: 55px;
+}
+.product > button{
+  padding: 15px;
+  width: 90%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.header__search{
+  display: none;
+}
+.header__optionLineOne{
+  font-size: 10px;
+}
+.checkout{
+  display: flex;
+  flex-direction: column;
+}
+.checkoutProduct__info > button{
+  border-radius: 5px;
+  margin-top:10px
+}
 }
